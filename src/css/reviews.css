@@ -1,0 +1,196 @@
+.reviews-header-choc {
+  color: var(--orange-color);
+}
+
+.reviews {
+  padding-bottom: 72px;
+}
+.reviews-header {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.reviews-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.reviews-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 42px;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-list {
+  padding-bottom: 32px;
+  overflow: hidden;
+}
+.reviews-item {
+  padding-top: 58px;
+  position: relative;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 335px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 26.57px;
+  max-width: 335px;
+  height: auto;
+
+  margin-right: 16px;
+}
+.review-img {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -74%);
+}
+.review-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid var(--orange-color);
+  border-radius: 100px;
+  background-color: #ffffff;
+  color: var(--black-color);
+}
+.review-btn:hover,
+.review-btn:focus,
+.review-btn:active {
+  background-color: var(--orange-color);
+  color: #ffffff;
+}
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+/* @@@@@ */
+.reviews-list .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews-list .slick-dots li {
+  list-style: none;
+  margin-right: 13px;
+  margin-top: 20px;
+}
+/* Активная точка */
+.reviews-list .slick-dots li.slick-active button {
+  width: 28px;
+  height: 13px;
+  border-radius: 25px;
+  background-color: var(--orange-color);
+}
+/* Элемент точки */
+.reviews-list .slick-dots li button {
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  background-color: rgba(17, 17, 17, 0.1);
+  border-radius: 50%;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    padding-bottom: 100px;
+  }
+  .reviews-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .reviews-list {
+    padding-bottom: 50px;
+  }
+  .reviews-list .slick-dots li {
+    margin-top: 32px;
+  }
+  .reviews-item {
+    max-width: 344px;
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .reviews {
+    padding-bottom: 128px;
+  }
+  .reviews-item {
+    max-width: 360px;
+    height: auto;
+    margin-right: 28px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
