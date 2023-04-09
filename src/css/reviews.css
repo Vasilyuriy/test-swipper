@@ -4,6 +4,7 @@
 
 .reviews {
   padding-bottom: 72px;
+  overflow: hidden;
 }
 .reviews-header {
   text-align: center;
@@ -27,7 +28,6 @@
 
 .reviews-list {
   padding-bottom: 32px;
-  overflow: hidden;
 }
 .reviews-item {
   padding-top: 58px;
@@ -39,14 +39,16 @@
   border-radius: 26.57px;
   max-width: 335px;
   height: auto;
-
   margin-right: 16px;
+
+  width: 100%;
 }
 .review-img {
   position: absolute;
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, -74%);
+  z-index: 1;
 }
 .review-btn {
   display: block;
@@ -130,6 +132,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 0;
 }
 .reviews-list .slick-dots li {
   list-style: none;
@@ -186,11 +189,15 @@
     padding-bottom: 128px;
   }
   .reviews-item {
-    max-width: 360px;
+    width: 360px;
     height: auto;
     margin-right: 28px;
   }
   .container {
     max-width: 1200px;
+  }
+  .reviews-item {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
